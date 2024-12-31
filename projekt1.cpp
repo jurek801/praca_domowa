@@ -18,8 +18,13 @@ int main() {
         cout << endl;
         cout << "MENU" << endl;
         cout << "Podaj numer czynnosci, ktora chcesz wykonac" << endl;
+	cout << "1. Silnia" << endl;
         cout << "0. Wyjscie" << endl;
         cin >> wyjscie;
+
+	if(wyjscie == 1){
+		cout << a << "! = " << silnia(a) << endl;
+	}
     } while(wyjscie != 0);
     return 0;
 }
